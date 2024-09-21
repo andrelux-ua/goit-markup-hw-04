@@ -360,7 +360,6 @@ img {
 }
 
 .case-overlay-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -417,6 +416,11 @@ img {
     background-color: #2e2f42;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .header-logo .footer-logo {
     color: #f4f4fd;
 }
@@ -432,4 +436,17 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.second-block {
+    margin-left: 120px;
+}
+
+.second-block-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
