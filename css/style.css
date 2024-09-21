@@ -158,6 +158,7 @@ img {
     rgba(46, 47, 66, 0.7)), 
     url(../images/office.jpg);
     background-size: cover;
+    background-repeat: no-repeat; 
     background-position: center;
     background-color: #2e2f42;
 
@@ -189,6 +190,7 @@ img {
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -245,6 +247,7 @@ img {
     border: 1px solid #8e8f99;
     border-radius: 4px;
     margin-bottom: 8px;
+    height: 112px;
 }
 
 .advantage-item-icon {
@@ -281,6 +284,7 @@ img {
     background-color: #FFFFFF;
     text-align: center;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .status {
@@ -326,7 +330,7 @@ img {
 
 .social-network:hover,
 .social-network:focus {
-    background-color: #31d0aa;;
+    background-color: #404bbf;;
 }
 
 .social-network-icon{
@@ -438,9 +442,14 @@ img {
     color: #f4f4fd;
 }
 
-.second-block {
-    margin-left: 120px;
+.first-block {
+    margin-right: 120px;
 }
+
+.footer-list-social-networ {
+    gap: 16px;
+}
+
 
 .second-block-text {
     font-weight: 500;
